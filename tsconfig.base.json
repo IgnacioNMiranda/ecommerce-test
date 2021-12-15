@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@lib/ecommerce-bff-types": ["libs/ecommerce-bff-types/src/index.ts"],
+      "@lib/contentful-sdk-types": ["libs/contentful-sdk-types/src/index.ts"],
+      "@lib/react": ["libs/atomic-components-react/src/index.ts"],
+      "@lib/react/atoms": ["libs/atomic-components-react/src/lib/atoms/index.ts"],
+      "@lib/react/molecules": ["libs/atomic-components-react/src/lib/molecules/index.ts"],
+      "@lib/react/organisms": ["libs/atomic-components-react/src/lib/organisms/index.ts"],
+      "@lib/react/types": ["libs/atomic-components-react/src/lib/types/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
